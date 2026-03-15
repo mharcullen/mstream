@@ -17,7 +17,7 @@ export default defineConfig(({ mode }) => {
         }
       }),
       Sitemap({ 
-        hostname: 'https://mstream.pages.dev/',
+        hostname: 'https://mstream.eu.cc/',
         dynamicRoutes: [
           '/home',
           '/movies',

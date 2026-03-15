@@ -1,6 +1,6 @@
 <p align="center">
   <div align="center">
-    <a href="https://mstream.pages.dev/">
+    <a href="https://mstream.eu.cc/">
       <img alt="MSTREAM" src="https://raw.githubusercontent.com/cd-Crypton/mstream/refs/heads/main/public/logo/mstream-new.png" width="220"/>
     </a>
   </div>
@@ -9,7 +9,7 @@
 </p>
 </p>
 <p align="center">
-    <a href="https://mstream.pages.dev/">MSTREAM</a> is an open-source movies and tv shows streaming service that uses <a href="https://www.themoviedb.org/">TheMovieDatabase</a> API, built using ReactJS and CSS, and can be deployed in Cloudflare (as Pages). It lets you easily find any movie with intuitive search, and suggestion feature. Note that the website itself does not have ads anymore, but video source (iframe-based) has embeded ads---please use ad-blocking extension or use Brave browsers.
+    <a href="https://mstream.eu.cc/">MSTREAM</a> is an open-source movies and tv shows streaming service that uses <a href="https://www.themoviedb.org/">TheMovieDatabase</a> API, built using ReactJS and CSS, and can be deployed in Cloudflare (as Pages). It lets you easily find any movie with intuitive search, and suggestion feature. Note that the website itself does not have ads anymore, but video source (iframe-based) has embeded ads---please use ad-blocking extension or use Brave browsers.
     <img alt="MSTREAM" src="https://raw.githubusercontent.com/cd-Crypton/mstream/refs/heads/main/public/img/landingpage.webp"/>
  </p>
 
@@ -65,7 +65,7 @@ npm run dev
 
 ### Cloudflare (Pages)
 
-Host your own instance of <a href="https://mstream.pages.dev/">MSTREAM</a> on Cloudflare.
+Host your own instance of <a href="https://mstream.eu.cc/">MSTREAM</a> on Cloudflare.
 - Fork this repository.
 - Go to Cloudflare >> Workers and Pages >> Create application >> Pages >> Import an Existing Git Repository
 - Project Name: `mstream or whatever name you want - just make sure to edit wrangler.jsonc`
