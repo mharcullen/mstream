@@ -20,14 +20,14 @@ export default defineConfig(({ mode }) => {
         hostname: 'https://mstream.eu.cc/',
         dynamicRoutes: [
           '/home',
-          '/movies',
-          '/tv-shows',
-          '/popular',
-          '/watch?type=movie&amp;id=1062722',
-          '/watch?type=movie&amp;id=1197137',
-          '/watch?type=movie&amp;id=1114967',
-          '/watch?type=movie&amp;id=1571470',
-          '/watch?type=movie&amp;id=617126'
+          '/movies?sort_by=popularity.desc&include_adult=false&include_video=false&language=en-US&page=1',
+          '/tv-shows?sort_by=popularity.desc&include_adult=false&include_null_first_air_dates=false&language=en-US&page=1',
+          '/popular?include_adult=false&include_video=false&language=en-US&page=1',
+          '/watch?type=movie&id=1523145',
+          '/watch?type=movie&id=1197137',
+          '/watch?type=movie&id=1114967',
+          '/watch?type=movie&id=1571470',
+          '/watch?type=movie&id=617126'
         ],
         readable: true,
         robots: [
