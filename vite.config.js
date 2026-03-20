@@ -19,7 +19,6 @@ export default defineConfig(({ mode }) => {
       Sitemap({ 
         hostname: 'https://mstream.eu.cc',
         dynamicRoutes: [
-          '/home',
           '/movies?sort_by=popularity.desc&include_adult=false&include_video=false&language=en-US&page=1',
           '/tv-shows?sort_by=popularity.desc&include_adult=false&include_null_first_air_dates=false&language=en-US&page=1',
           '/popular?include_adult=false&include_video=false&language=en-US&page=1',
